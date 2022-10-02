@@ -42,8 +42,8 @@ Start the backend server before the frontend client.
 
 **Backend**
 
-  1. Install [PostgreSQL](https://www.postgresql.org/download/)  or [MySQL](https://www.mysql.com/fr/downloads/)
-    2. Configure datasource in `application.yml`.
+  1. Install [PostgreSQL](https://www.postgresql.org/download/) or [MySQL](https://www.mysql.com/fr/downloads/).
+  2. Configure datasource in `application.properties` for MySQL or `application-local.properties` for PostgreSQL .
   3. `cd EmployeeManBackend`.
   4. Run `mvn install`.
   5. Run `mvn spring-boot:run`.
